@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { motion } from "motion/react"
 export default function Navbar() {
   return (
     <div className='flex justify-center '>
-      <nav className='inline-flex fixed justify-center text-white bg-black  border-2 p-8 rounded-full border-neutral-500  mt-4 gap-8 md:gap-0'>
+      <motion.nav whileHover={{scale:1.1}} className='inline-flex fixed justify-center text-white bg-black  border-2 p-8 rounded-full border-neutral-500  mt-4 gap-8 md:gap-0'>
         <div >
           <h1 className='font-poppins font-bold  md:text-2xl'>Movie Mania</h1>
         </div>
@@ -18,7 +18,7 @@ export default function Navbar() {
           <button className='bg-green-500 text-black w-20 font-semibold rounded-full'>Login</button>
           </div>
         </div>
-      </nav>
+      </motion.nav>
     </div>
   )
 }
