@@ -10,7 +10,8 @@ export default {
         customDropdown: '#2D2D2D'
       },
       fontFamily:{
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        sixtyFour: ['Sixtyfour', 'sans-serif']
       }
     },
   },

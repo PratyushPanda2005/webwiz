@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 export default function Movies() {
   const [preMovies, setPreMovies] = useState({});
@@ -32,7 +32,7 @@ export default function Movies() {
                 src={el.images.jpg.image_url} 
                 alt={el.title} 
               />
-             <a className='text-neutral-500 ' href={el.url}><span className='text-green-500'>Click </span>Here</a>
+             <a className='text-neutral-500 ' href={el.url}><span className='text-green-500 font-bold'>Click </span>Here</a>
             </li>
           ))}
         </ul>

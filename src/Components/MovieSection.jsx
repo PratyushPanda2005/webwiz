@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
   // Step 1: Set up state to store the posts data
   const [movieMania, setMovieMania] = useState([]);  // To store the fetched posts
-  const [preMovies, setPreMovies] = useState({});  // To store the fetched posts
+ 
 
   // Step 2: Fetch data from the API when the component first loads
   useEffect(() => {

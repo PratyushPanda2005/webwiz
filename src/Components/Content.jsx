@@ -1,4 +1,3 @@
-import React from "react";
 import "./Content.css";
 import { UilArrowDown } from "@iconscout/react-unicons";
 export default function Content() {
@@ -53,7 +52,7 @@ export default function Content() {
         </div>
         <div className="dropdown-content-first bg-customDropdown text-xl md:text-3xl p-4 rounded-xl  ">
         Movie Mania is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
-You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. Theres always something new to discover, and new TV shows and movies are added every week!
         </div>
 
         <div  onClick={toggleDropdown2} className="bg-customDropdown hover:bg-neutral-500 text-xl md:text-3xl p-4 rounded-xl flex justify-between">
@@ -65,7 +64,7 @@ You can watch as much as you want, whenever you want, without a single ad – al
         <div className="dropdown-content-second bg-customDropdown text-xl md:text-3xl p-4 rounded-xl  ">
         Movie Mania is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
 
-You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. Theres always something new to discover, and new TV shows and movies are added every week!
         </div>
     
         
@@ -78,7 +77,7 @@ You can watch as much as you want, whenever you want, without a single ad – al
         <div className="dropdown-content-third bg-customDropdown text-xl md:text-3xl p-4 rounded-xl  ">
         Movie Mania is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
 
-You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. Theres always something new to discover, and new TV shows and movies are added every week!
         </div>
         <div   onClick={toggleDropdown4} className="bg-customDropdown hover:bg-neutral-500 text-xl md:text-3xl p-4 rounded-xl flex justify-between">
           <h1>Is this good for kids?</h1>
@@ -89,7 +88,7 @@ You can watch as much as you want, whenever you want, without a single ad – al
         <div className="dropdown-content-fourth bg-customDropdown text-xl md:text-3xl p-4 rounded-xl  ">
         Movie Mania is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
 
-You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. Theres always something new to discover, and new TV shows and movies are added every week!
         </div>
       </div>
     </div>
