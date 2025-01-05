@@ -18,7 +18,7 @@ function App() {
   // Step 3: Render the posts
   return (
     <div className='p-4 bg-black h-screen pt-32'>
-      <h1 className='text-7xl mb-4 text-white text-center font-poppins'>Movie Section</h1>
+      <h1 className='text-7xl mb-4 text-white text-center font-pacifico'>Movie Section</h1>
       <h1 className='text-3xl mb-4 text-center bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-poppins md:font-semibold'>Trending Now</h1>
 
       <div
