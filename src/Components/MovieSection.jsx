@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import { motion } from "motion/react"
 function App() {
   // Step 1: Set up state to store the posts data
   const [movieMania, setMovieMania] = useState([]);  // To store the fetched posts
@@ -30,11 +30,11 @@ function App() {
       >
         <ul className='flex space-x-6'>
           {movieMania.map((el, index) => (
-            <li key={index} className='inline-block text-center'>
+            <motion.li whileHover={{scale:1.02}} key={index} className='inline-block text-center'>
               <h3 className='text-3xl font-poppins font-bold text-white'>{el.movie}</h3>
               <p className='text-gray-500'>{el.character}</p>
               <img className='md:w-96 h-72 w-72 md:h-96 rounded-md' src={el.poster} alt={el.movie} />
-            </li>
+            </motion.li>
           ))}
         </ul>
       </div>

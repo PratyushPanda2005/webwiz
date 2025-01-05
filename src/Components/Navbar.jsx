@@ -2,7 +2,7 @@ import { motion } from "motion/react"
 export default function Navbar() {
   return (
     <div className='flex justify-center '>
-      <motion.nav whileHover={{scale:1.1}} className='inline-flex fixed justify-center text-white bg-black  border-2 p-8 rounded-full border-neutral-500  mt-4 gap-8 md:gap-0'>
+      <motion.nav whileHover={{scale:1.1}} className='inline-flex z-10 fixed justify-center text-white bg-black  border-2 p-8 rounded-full border-neutral-500  mt-4 gap-8 md:gap-0'>
         <div >
           <h1 className='font-poppins font-bold  md:text-2xl'>Movie Mania</h1>
         </div>
